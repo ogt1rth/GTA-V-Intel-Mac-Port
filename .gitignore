@@ -1,0 +1,47 @@
+# Never commit game files or anything generated from them.
+*.wasm
+*.rpf
+mirror/
+app/Generated/
+app/Tools/
+app/Build/
+app/Resources/manifest.json
+app/Resources/wgpu_worker.js
+app/*.xcodeproj
+*.ipa
+.DS_Store
+
+# Packaged app (contains generated game resources).
+GTA-V-Intel-Mac-Port.zip
+
+# Local intro video remains excluded.
+app/Resources/intro.mp4
+# Local runtime output, exports, credentials and packaged builds.
+*.log
+*.profraw
+*.profdata
+*.app/
+*.dSYM/
+*.zip
+*.7z
+*.rar
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+# Extracted game assets and compiled shaders.
+*.ytd
+*.yft
+*.ydr
+*.ydd
+*.ybn
+*.ymap
+*.ycd
+*.awc
+*.ysc
+*.wgsl
+*.metallib
+*.air
+*.o
